@@ -1,0 +1,304 @@
+h1{
+    color: orange;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+
+.page-he-thong {
+    margin-bottom: 30px;
+    color: #000;
+}
+section {
+    display: block;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hethong-info {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 2px solid #fca120;
+    background: #fff;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.hethong-info .item {
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: flex;
+}
+.hethong-info .item .thump {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #fca120;
+    background-size: auto auto;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.hethong-info .item .thump img {
+    max-height: 36px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+.hethong-info .item span {
+    font-size: 17px;
+    color: #000;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.d-none {
+    display: none !important;
+}
+.col-md-12, .col-sm-12{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.content-page {
+    min-height: 400px;
+}
+.col-left {
+    margin-bottom: 30px;
+}
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-12, .col-lg-4, .col-md-12, .col-md-5{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.page-he-thong .option-chos {
+    border-radius: 10px;
+    height: 100%;
+    padding: 10px;
+    background: #fff;
+}
+.page-he-thong .option-chos .group-option {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.page-he-thong .option-chos .group-option .group-city, .page-he-thong .option-chos .group-option .group-district {
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.page-he-thong .option-chos .group-option .group-city select#city, .page-he-thong .option-chos .group-option .group-district select#city {
+    background-color: #fca120;
+    color: #fff;
+    background-image: url(//bizweb.dktcdn.net/100/480/479/themes/900388/assets/ico-select_1.png?1691398940661);
+}
+.page-he-thong .option-chos .group-option .group-city select, .page-he-thong .option-chos .group-option .group-district select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 28px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 20px 5px 12px;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    border-radius: 0;
+    border: 1px solid #fca120;
+    outline: none !important;
+    border-radius: 10px;
+}
+select {
+    word-wrap: normal;
+}
+select {
+    text-transform: none;
+}
+select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.page-he-thong .option-chos .group-option .group-city select option, .page-he-thong .option-chos .group-option .group-district select option {
+    background-color: #fff;
+    color: #000;
+}
+.page-he-thong .option-chos .group-option .group-city, .page-he-thong .option-chos .group-option .group-district {
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.page-he-thong .option-chos .group-option .group-city select#district, .page-he-thong .option-chos .group-option .group-district select#district {
+    background-color: #fff;
+    color: #000;
+    background-image: url(//bizweb.dktcdn.net/100/480/479/themes/900388/assets/ico-select_2.png?1691398940661);
+}
+.page-he-thong .option-chos .group-option .group-district select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 28px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 20px 5px 12px;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    border-radius: 0;
+    border: 1px solid #fca120;
+    outline: none !important;
+    border-radius: 10px;
+}
+.page-he-thong .option-chos .group-option .group-district select option {
+    background-color: #fff;
+    color: #000;
+}
+.page-he-thong .option-chos .info-store {
+    height: auto;
+    max-height: 220px;
+}
+.page-he-thong .option-chos .info-store {
+    margin-top: 15px;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.page-he-thong .option-chos .info-store .store-list {
+    padding: 5px 10px;
+    line-height: 24px;
+    border: 1px solid #e1e1e1;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin: 0 10px 10px 0;
+    border-radius: 10px;
+    border: 2px solid #fca120;
+}
+.page-he-thong .option-chos .info-store .store-list .name-cuahang {
+    color: #fca120;
+    font-weight: 700;
+}
+.page-he-thong .option-chos .info-store .store-list .store-name {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.page-he-thong .option-chos .info-store .store-list .store-phone {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.page-he-thong .option-chos .info-store .store-list .store-phone .phone-url {
+    margin-right: 15px;
+    color: #fca120;
+}
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.page-he-thong .wrapcontact {
+    height: 100%;
+    overflow: hidden;
+}
+.page-he-thong .wrapcontact iframe {
+    width: 100% !important;
+    height: 474px !important;
+    border: none !important;
+    border-radius: 10px;
+}
+.page-he-thong .pagebody iframe {
+    width: 100% !important;
+    height: 474px !important;
+    border: none !important;
+    border-radius: 10px;
+}

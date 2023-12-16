@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+  
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+ /* CSS Reset */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container for products */
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Container for each product */
+.product-container {
+  position: relative;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+/* Product image */
+.product-image {
+  width: 100%;
+  height: auto;
+  border: 3px solid #221414;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect - show cart and magnifier icons */
+.product-container:hover .product-image {
+  transform: scale(1.1);
+}
+
+/* Cart icon */
+.cart-icon,
+.magnifier-icon {
+  position: absolute;
+  bottom: 30%;
+  left: 30%; /* Adjust the left position as needed */
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Magnifier icon */
+.magnifier-icon {
+  left: 60%; /* Adjust the left position as needed */
+}
+
+/* Show icons on hover */
+.product-container:hover .cart-icon,
+.product-container:hover .magnifier-icon {
+  opacity: 1;
+}
+
+/* Product information container */
+.product-info {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Product name and price */
+.product-info p {
+  border: 1px solid #181717;
+  padding: 5px;
+  margin: 5px 0;
+}
+.product-info:hover{
+  color: orangered;
+}

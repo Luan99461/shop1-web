@@ -1,0 +1,115 @@
+section {
+    margin-bottom: -20px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.container-list{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+/* @media (min-width: 992px){
+.container {
+    max-width: 960px;
+}}
+@media (min-width: 768px){
+.container {
+    max-width: 720px;
+}}
+@media (min-width: 576px){
+.container {
+    max-width: 540px;
+}} */
+
+.section_danhmuc ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+/* @media (max-width: 1199px){
+.section_danhmuc ul li {
+    -ms-flex: 0 0 calc( 100% / 3);
+    flex: 0 0 calc( 100% / 3);
+    max-width: calc( 100% / 3);
+}} */
+.section_danhmuc ul li {
+    position: relative;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    -ms-flex: 0 0 calc( 100% / 5);
+    flex: 0 0 calc( 100% / 5);
+    max-width: calc( 100% / 5);
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+li {
+    transition: all .4s ease;
+}
+.section_danhmuc ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: lightblue;
+}
+.section_danhmuc ul li a:hover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    color:orange;
+}
+.section_danhmuc ul li a h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.section_danhmuc ul li a h3 span {
+    display: block;
+}
+.section_danhmuc ul li a img {
+    height: 80px;
+    transform: scale(1);
+    transition: all 1s ease;
+    position: relative;
+    right: -20px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+}
+.section_danhmuc ul li a img {
+    height: 80px;
+    transform: scale(1);
+    transition: all 1s ease;
+    position: relative;
+    right: -20px;
+}
+.section_danhmuc ul li a img:hover {
+    height: 80px;
+    transform: scale(1);
+    transition: all 1s ease;
+    position: relative;
+    right: 5px;
+}

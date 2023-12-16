@@ -1,0 +1,95 @@
+h1{
+    color: orange;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 36px;
+}
+
+.btn{
+    border: none;
+}
+
+.formlogin{
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 400px;
+    margin: 20px auto;
+    height: 450px;
+    padding: 20px;
+    /* height: 600px; */
+    border: none;
+}
+
+.formlogin h2 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.form-body {
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body>* {
+    padding: 5px;
+}
+
+.formlogin input {
+    width: 100%;
+    padding: 7px 0px;
+    margin-top: 5px;
+    text-indent: 10px;
+    border-radius: 6px;
+    border: 1px solid darkgray;
+    border-bottom: 3px solid black;
+}
+
+.formlogin input:focus {
+    outline: none;
+}
+
+.formlogin .footer {
+    text-align: center;
+    margin-top: -10px;
+    background-color: black;
+    width: 90%;
+    margin-left: 18px;
+    border-radius: 6px;
+}
+
+.footer button {
+    color: white;
+    text-align: center;
+    padding-top: 0;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.formlogin img{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    width: 129px;
+    height: 37px;
+    margin-right: 3px;
+}
+
+.formlogin p{
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer:hover{
+    background-color: orange;
+}

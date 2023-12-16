@@ -1,0 +1,19 @@
+i {
+    color: orange;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.navbar-button{
+    height: 50%;
+    border: none;
+    padding: 0px 10px;
+    margin-top: 25px;
+    margin-right: 200px;
+}
+.navbar-button i{
+    padding-left: 10px;
+    font-size: 24px;
+}
